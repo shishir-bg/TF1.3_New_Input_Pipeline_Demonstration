@@ -1,7 +1,7 @@
 # TF1.3_New_Input_Pipeline_Demonstration
 
 This is a demonstration of the TensorFlow's new Dataset and Estimator APIs. here I have used 
-The trained model categorizes Iris flowers based on four botanical features (sepal length, sepal width, petal length, and petal width). So, during inference, you can provide values for those four features and the model will predict that the flower is one of the following three beautiful variants: Sertosa, Versicolor or Virginica. The model is built using a pre-made Deep Neural Net Regression Classifier - an Estimator provided by the new Estimator API.
+The trained model categorizes Iris flowers based on four botanical features (sepal length, sepal width, petal length, and petal width). So, during inference, you can provide values for those four features and the model will predict that the flower is one of the following three beautiful variants: Sertosa, Versicolor or Virginica. The model is built using a pre-made Deep Neural Net Regression Classifier - an Estimator provided by the new Estimator API. This is implemented following the Google Developers Blog Tutorials on the New Dataset and Estimators API as well as with help from the below listed sources.
 
 Requirements:
 1. Python 3 or above
@@ -28,6 +28,7 @@ Reference Links:
 4. https://apimirror.com/tensorflow~guide/programmers_guide/reading_data
 5. https://kratzert.github.io/2017/06/15/example-of-tensorflows-new-input-pipeline.html
 6. https://github.com/tensorflow/workshops/blob/master/notebooks/07_structured_data.ipynb
+7. https://developers.googleblog.com/2017/09/introducing-tensorflow-datasets.html
 
 
 Reference Papers:
