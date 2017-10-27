@@ -4,8 +4,8 @@ This is a demonstration of the TensorFlow's new Dataset and Estimator APIs. here
 The trained model categorizes Iris flowers based on four botanical features (sepal length, sepal width, petal length, and petal width). So, during inference, you can provide values for those four features and the model will predict that the flower is one of the following three beautiful variants: Sertosa, Versicolor or Virginica. The model is built using a pre-made Deep Neural Net Regression Classifier - an Estimator provided by the new Estimator API.
 
 Requirements:
-Python 3 or <
-Tensorflow 1.3 or <
+1. Python 3 or above
+2 Tensorflow 1.3 or above
 
 
 Steps:
