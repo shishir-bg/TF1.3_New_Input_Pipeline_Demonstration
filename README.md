@@ -3,6 +3,23 @@
 This is a demonstration of the TensorFlow's new Dataset and Estimator APIs. here I have used 
 The trained model categorizes Iris flowers based on four botanical features (sepal length, sepal width, petal length, and petal width). So, during inference, you can provide values for those four features and the model will predict that the flower is one of the following three beautiful variants: Sertosa, Versicolor or Virginica. The model is built using a pre-made Deep Neural Net Regression Classifier - an Estimator provided by the new Estimator API.
 
+Requirements:
+Python 3 or <
+Tensorflow 1.3 or <
+
+
+Steps:
+1. Import tensorflow, os and sys
+2. Download Datasets from given URL
+3. Create Data Pipeline for Input into the Model(Preprocess, split, batch)
+4. Create Model DNNClassifier using Tensorflow Estimators
+5. Train DNNClassifier with training data from Input Pipeline
+6. Evaluate Model with .evaluate with testing data from Input Pipeline
+7. Test Prediction with Test data, then test prediction with your data.
+
+All steps have been described and implemented in the Jupyter Notebook : tf1.3_pipeline_estimator_DNNClassifier.ipynb
+
+
 Reference Links:
 1. https://www.tensorflow.org/versions/master/extend/estimators
 2. https://medium.com/onfido-tech/higher-level-apis-in-tensorflow-67bfb602e6c0
