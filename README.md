@@ -5,7 +5,8 @@ The trained model categorizes Iris flowers based on four botanical features (sep
 
 Requirements:
 1. Python 3 or above
-2 Tensorflow 1.3 or above
+
+2. Tensorflow 1.3 or above
 
 
 Steps:
